@@ -1,0 +1,13 @@
+
+INSERT INTO BOARD(TITLE, CONTENTS, WRITER)
+VALUES('나 은영인데 연하킬러야','진짜라니까','이므녕');
+
+INSERT INTO BOARD(TITLE, CONTENTS, WRITER)
+VALUES('나 은영인데 침팬지야','진짜라니까','이므녕1');
+
+INSERT INTO BOARD(TITLE, CONTENTS, WRITER)
+VALUES('나 은영인데 놀고먹고싸는게제일좋아','진짜라니까','이므녕2');
+
+COMMIT;
+
+SELECT * FROM BOARD;
